@@ -1,0 +1,9 @@
+{
+  "setup": [
+    "cp -n .env.local.example .env.local",
+    "cp -n .env.test.example .env.test",
+    "bin/setup"
+  ],
+  "run": ["bin/dev"],
+  "teardown": []
+}
